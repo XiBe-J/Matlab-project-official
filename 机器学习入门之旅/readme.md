@@ -6,3 +6,5 @@ function dataout = functionName(datain)
   % do something with datain
   dataout = ...
 end
+### 归一化数据
+典型的归一化包括按照均值偏移（使得偏移后的数据均值为0）或者将数据偏移并缩放到固定范围内（例如[-1,1]）。对书写的字母x和y的数据都进行偏移，使其均值为0，确保所有字母以同一点为中心。
